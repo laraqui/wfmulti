@@ -1,5 +1,7 @@
-name: Multi Step Workflowon:
-  push:jobs:
+name: Multi Step Workflow
+on:
+  push:
+jobs:
   demo_steps:
     runs-on: ubuntu-latest    
     env:
